@@ -1,0 +1,23 @@
+Selectors, properties, and values
+The difference between block and inline styling
+How to ensure consistency across all browers (CSS reset)
+How to setup CSS variables
+The differences between inline, embeded and external CSS
+How grid systems work (with floats)
+The difference between icons webfonts and SVG icons
+The difference between pseudo-classes and pseudo-elements
+How to make background gradients
+How to animate elements in CSS
+How to transform (2d, 3d) elements
+What vendor prefixes are
+
+
+Based on styles/12-style.css:
+
+Ensure that the declaration targeting anchor elements only targets those containing a hyperlink
+Directly after this declaration, target the visited state for the link
+Italicize the text
+Directly after the visited state, target the hover state for the link
+Decorate the links with an underline when hovering
+Directly after the hover state, target the active state for the link
+Set the color of the background with the variable color-light-grey
