@@ -1,0 +1,43 @@
+ul {
+  display: flex;
+
+  /* font settings  */
+
+  /* justify-content: space-evenly; */
+  list-style: none;
+  font-weight: 800;
+  justify-content: center;
+  font-size: 38px;
+
+  /* background-image: url(0-sprite.png); */
+}
+li {
+  border: gray solid 1px;
+  border-radius: 3%;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding-top: 10px; /
+}
+
+.icon {
+  display: inline-block;
+
+  background-image: url(0-sprite.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 300px;
+}
+
+li .i-html {
+  background-position: left center;
+}
+li .i-css {
+  background-position: center;
+}
+li .i-js {
+  background-position: right center;
+}
